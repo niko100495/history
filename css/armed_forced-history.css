@@ -1,0 +1,112 @@
+
+.history-structure{
+  width: 100%;
+  background-color: white;
+}
+
+.forced_hist{
+  min-height: 500px;
+  background-color: white;
+}
+.forced_hist .disp_block .listcatg {
+    display: block;
+    background-color: transparent;
+    margin-top: 0px;
+    padding-right: 9px;
+}
+.forced_hist .disp_block .listcatg ul li {
+    width: 100%;
+    margin-bottom: 10px;
+    padding-bottom:  3px;
+    padding-top: 3px;
+}
+.forced_hist .listcatg ul li a {
+    font-size: 16px;
+    font-family: 'bpgnp';
+    color: #736451;
+    display: block;
+    padding-left: 10px;
+    padding-right: 0px;
+    line-height: 2rem;
+    position: relative;
+    top: 0;
+    padding-top:  5px;
+    padding-bottom: 5px;
+}
+.forced_hist .active_sidelist {
+    background-color: #736451;
+    position: relative;
+    padding-left: 21px;
+    left: -21px;
+}
+.forced_hist .textsubs{
+  width: 100%;
+  padding: 0 20px 0 0;
+}
+.forced_hist .text_title{
+  padding-top: 40px;
+}
+.forced_hist .textsubs p{
+  padding-bottom: 20px;
+}
+.forced_hist .textsubs .col-lg-6{
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+.forced_hist .textsubs .col-lg-6 img{
+  object-fit: cover;
+}
+.forced_hist .textsubs {
+    margin-bottom: 0px; 
+}
+.shareblock{
+  position: relative;
+}
+.forced_hist .discoverysubs{
+    position: absolute;
+    margin-top: 57px;
+    background: #313b47;
+    font-family: bebasr;
+    font-size: 20px;
+    color: white;
+    padding-left: 22px;
+    padding-right: 16px;
+    border: none;
+    letter-spacing: 1px;
+    display: inline-block;
+    top: -62px;
+    left: 100%;
+    margin-left: -212px;
+}
+.active{
+  color: #a5855d!important;
+}
+.active:before{
+  background-color: white!important;
+}
+@media (max-width: 768px){
+  .forced_hist .textsubs .col-lg-6 img{
+  width: 100%;
+  }
+  .forced_hist .textsubs{
+  padding: 0 0 0 0;
+  }
+}
+
+@media (max-width: 380px){
+  .forced_hist table {
+    display: inline-block;
+    position: relative;
+    bottom: 6px;
+    margin-right: 13px;
+    margin-top: 50px;
+    left: 50%;
+    margin-left: -60px;
+  }
+  .forced_hist .discoverysubs {
+   
+    position: relative;
+    left: 50%;
+    margin-left: -165px;
+  }
+}

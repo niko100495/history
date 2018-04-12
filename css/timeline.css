@@ -1,0 +1,363 @@
+.timeline_title{
+	margin-top: 40px;
+	font-size: 16px;
+	color: #454442;
+	font-family: bpgnp;
+	font-weight: bold;
+	text-align: left;
+}
+.timeline_desc{
+	margin-top: 40px;
+	text-align: left;
+	font-size: 16px;
+	color: #454442;
+	font-family: bpgnp;
+}
+.white_back{
+	background-color: white;
+}
+.time_start{
+	margin-top: 55px;
+	position: relative;
+	margin-bottom: 200px;
+}
+.time_start::after{
+	content: "";
+	position: absolute;
+	left: 50%;
+	width: 2px;
+	height: auto;
+	top: 0;
+    bottom: 0;
+    background-color: #736451;
+
+}
+.time_left{
+	width: 50%;
+	left: 0;
+	position: relative;
+	top: 25px;
+}
+.imglayer145{
+	background-image: url(../images/layer145.png);
+}
+.imglayer142{
+	background-image: url(../images/layer142.png);
+}
+.imglayer147{
+	background-image: url(../images/layer147.png);
+}
+.imglayer150{
+	background-image: url(../images/layer150.png);
+}
+.imglayer152{
+	background-image: url(../images/layer152.png);
+}
+.imglayer154{
+	background-image: url(../images/layer154.png);
+}
+.imglayer156{
+	background-image: url(../images/layer156.png);
+}
+.imglayer158{
+	background-image: url(../images/layer158.png);
+}
+
+
+
+
+.time_box_left{
+	
+	height: 360px;
+	width: 545px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+
+}
+
+.time_minbox_left{
+	width: 305px;
+	height: 190px;
+	background-color: rgba(115,100,81,0.5);
+	position: absolute;
+    right: 34px;
+    top: 229px;
+}
+.time_number{
+	font-size: 100px;
+	color: white;
+	font-family: 'Rochester-Regular';
+}
+.time_title{
+	font-size: 30px;
+	color: #131c27;
+	font-family: bebasr;
+	z-index: 1;
+	position: relative;
+
+}
+.left_box {
+    text-align: right;
+    padding-right: 30px;
+}
+.time_box_left:after{
+	position: absolute;
+    content: '';
+    width: 62px;
+    height: 2px;
+    background-color: #736451;
+    left: 100%;
+    bottom: 45px;
+    margin-left: 12px;
+
+}
+.time_right{
+	left: 50%;
+	width: 50%;
+	position: relative;
+	padding-left: 60px;
+	top: 25px;
+	height: 272px;
+}
+.right_box{
+	text-align: left;
+    padding-left: 30px;
+}
+.time_minbox_right{
+	width: 305px;
+	height: 190px;
+	background-color: rgba(115,100,81,0.5);
+	position: absolute;
+    left: 34px;
+    top: 229px;
+}
+.time_box_right::before{
+	position: absolute;
+    content: '';
+    width: 62px;
+    height: 2px;
+    background-color: #736451;
+    right: 100%;
+    bottom: 45px;
+    margin-right: 12px;
+}
+.time_box_right{
+	height: 360px;
+	width: 545px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.headbox{
+	width: 8px;
+    height: 7px;
+    position: absolute;
+    left: 50%;
+    background-color: #736451;
+    top: -7px;
+    margin-left: -3px;
+}
+.footline{
+	width: 2px;
+	height: 140px;
+	position: absolute;
+    left: 50%;
+    background-color: #736451;
+}
+
+.hoverbox {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #736451;
+    padding-right: 0!important;
+    height: 59px;
+    opacity: 0;
+    z-index: 0;
+    left: 0;
+    transition: .5s;
+    
+}
+.leftplus{
+	text-align: left;
+    font-size: 40px;
+    padding-left: 10px;
+    color: white;
+    font-family: "fontawesome";
+}
+.rightplus{
+	text-align: right;
+    font-size: 40px;
+    padding-right: 10px!important;
+    color: white;
+    font-family: "fontawesome";
+}
+
+
+@media (max-width: 1200px){
+	.time_box_left{
+	
+	height: 290px;
+	width: 435px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+
+	}
+	.time_box_right{
+
+	height: 290px;
+	width: 435px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+
+	}
+	.time_minbox_left{
+	width: 247px;
+	height: 150px;
+	background-color: rgba(115,100,81,0.5);
+	position: absolute;
+    right: 34px;
+    top: 195px;
+}
+	.time_number{
+	font-size: 80px;
+	color: white;
+	font-family: 'Rochester-Regular';
+	line-height: 100px;
+	}
+	
+	
+	.time_minbox_right{
+	width: 247px;
+	height: 150px;
+	background-color: rgba(115,100,81,0.5);
+	position: absolute;
+    left: 34px;
+    top: 195px;
+	}
+	.time_title{
+	font-size: 27px;
+	color: #131c27;
+	font-family: bebasr;
+	padding-top: 2px;
+	}
+	.hoverbox {
+    height: 55px;
+  
+	}
+	.left_box {
+    text-align: right;
+    padding-right: 10px;
+	}
+	
+	.right_box{
+	text-align: left;
+    padding-left: 30px;
+	}
+
+}
+
+@media (max-width: 992px){
+	.time_box_left{
+	
+	height: 290px;
+	width: 322px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+
+	}
+	.time_box_right{
+
+	height: 290px;
+	width: 322px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+
+	}
+}
+@media (max-width: 769px){
+	.time_left{
+		width: 100%;
+	}
+	.time_right{
+		width: 100%;
+		left: 0;
+		padding-left: 0;
+	}
+	.time_box_left, .time_box_right {
+    
+    height: 242px;
+    width: 100%;
+    margin-bottom: 10px;
+    
+	}
+	.time_start::after, .time_box_right::before,.time_box_left::after,.headbox,.footline{
+    display: none;
+	}
+	.time_start{
+	padding-left: 4px;
+    padding-right: 4px;
+	}
+	.time_number{
+	font-size: 40px;
+	color: white;
+	font-family: 'Rochester-Regular';
+	line-height: 52px;
+	}
+	.time_title{
+	font-size: 25px;
+	color: #131c27;
+	font-family: bebasr;
+	background-color: #aba297;
+
+	}
+	.time_minbox_left,.time_minbox_right {
+    width: 100%;
+    height: 90px;
+    background-color: rgba(115,100,81,0.5);
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 155px;
+	}
+	.left_box,.right_box {
+    text-align: center;
+    padding-right: 0px;
+    padding-left: 0px;
+	}
+	.timeline_title{
+	margin-top: 40px;
+	font-size: 16px;
+	color: #454442;
+	font-family: bpgnp;
+	font-weight: bold;
+	text-align: left;
+	padding-right: 10px;
+	padding-left: 10px;
+	}
+	.timeline_desc{
+	margin-top: 40px;
+	text-align: left;
+	font-size: 16px;
+	color: #454442;
+	font-family: bpgnp;
+	padding-right: 10px;
+	padding-left: 10px;
+	}
+	.time_right {
+    
+    height: 252px;
+	}
+	
+}

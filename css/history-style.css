@@ -1,0 +1,130 @@
+@import '../css/header.css';
+@import '../css/slickslide.css';
+@import '../css/newsslide.css';
+@import '../css/democracy.css';
+@import '../css/article.css';
+@import '../css/hero.css';
+@import '../css/footer.css';
+@import '../css/number.css';
+@import '../css/fonts.css';
+@import '../font-awesome-icons/css/font-awesome.min.css';
+@import '../slick/slick.css';
+@import '../slick/slick-theme.css';
+@import '../slick/animate.css';
+@import '../bootstrap/css/bootstrap.min.css';
+@import '../css/timeline.css';
+@import '../css/backimg.css';
+@import '../css/timelinesubs.css';
+@import '../css/armed_forced.css';
+@import '../css/armed_forced-history.css';
+@import '../css/armed_forced-ministers.css';
+@import '../css/armed_forced-war.css';
+@import '../css/dropdown.css';
+@import '../css/weapon.css';
+*:focus{
+    outline: none!important;
+}
+
+
+ 
+html,body{
+    background-color: #131c27!important;
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+.slick-initialized .slick-slide {
+
+    outline: none;
+}
+
+.container-fluid.edit {
+    margin-left: 82px;
+    margin-right: 82px;
+    padding: 0;
+    margin-top: 30px;
+}
+
+/*zogadad start*/
+.fb_color:hover i{
+    color: #3b5998!important;
+    transition: .2s;
+}
+.tw_color:hover i{
+    color: #1da1f2!important;
+    transition: .2s;
+}
+.fl_color:hover i{
+    color: #ff0084!important;
+    transition: .2s;
+}
+.yt_color:hover i{
+    color:  #ff0a0a!important;
+    transition: .2s;
+}
+
+a.hidden-xs:hover {
+    color: #d30404;
+}
+.language a:hover {
+    color: white;
+    text-decoration: none;
+}
+.Geo{
+    display: none;
+    width: 82px;
+    height: 46px;
+    opacity: 1;
+    background: #736451;
+    border-top: 0px solid;
+    z-index: 1;
+    margin-top: -1px;
+}
+
+.howmany{
+    margin-bottom: 80px;
+}
+
+.mainft a:hover{
+    text-decoration: none;
+}
+.active{
+  color: #a5855d!important;
+}
+.active:before{
+  background-color: white!important;
+}
+
+@media (max-width: 438px){
+    .hidden-400-down{
+    display: none;
+    }
+}
+
+
+.mt-0{
+    margin-top: 0!important;
+}
+.mt_90{
+    margin-top: 72px;
+}
+.pad-l-0{
+    padding-left: 0;
+}
+.pad-r-0{
+    padding-right: 0;
+}
+.h_125{
+    height: 125px;
+}
+.relative{
+    position: relative;
+}
+.pd-l-50{
+    padding-left: 50px;
+}
+
+canvas{
+    width: 100%;
+}

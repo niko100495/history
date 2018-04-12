@@ -1,0 +1,201 @@
+.secondslide{
+    position: relative;
+    margin: auto;
+}
+.secondslide .container{
+    
+position: absolute;
+    
+
+    
+left: 0;
+    
+margin-bottom: -142px;
+    
+right: 0;
+    
+background: transparent;
+    
+bottom: 50%;
+}
+.secondslide img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+.slidetext{
+   display: block;
+    text-align: left;
+
+}
+.secondslide .h1{
+    width: 48%;
+    font-family: bebasbook;
+    font-size: 80px;
+    color: white;
+    line-height: 7rem;
+}
+.secondslide .mybutton{
+       
+font-family: bpgnp;
+       
+background: transparent;
+       
+background-color: transparent;
+       
+/* border: transparent!important; */
+       
+border-bottom: 2px solid #736451;
+       
+border-top: transparent;
+       
+border-left: transparent;
+       
+border-right: transparent;
+       
+font-size: 16px;
+       
+border-radius: 0;
+}
+.secondslide .slick-active button:after{
+    content: "";
+    height: 2px;
+    width: 90px;
+    background-color: rgba(129,129,129,0.8);
+    position: absolute;
+    left:100%;
+    margin-left: 6px;
+    animation-name: example;
+    animation-duration: 5s;
+    top: 42%;
+}
+@keyframes example {
+    0%   {width: 0;}
+    100% {width: 88px;}
+}
+.secondslide .slick-dots li {
+    position: relative;
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+    /* left: 94%; */
+    /* bottom: 494px; */
+    /* padding-top: 38px; */
+    /* margin-top: 4px; */
+}
+.secondslide .slick-dots li button {
+    font-family: intro;
+    font-size: 14px;
+    line-height: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    color: white;
+    border: 0;
+    outline: none;
+    background: transparent;
+} 
+ .secondslide .slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: ''!important;
+    text-align: center;
+    opacity: .25;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.secondslide li.slick-active button {
+    background:  white;
+    color:  black;
+    text-align:  center;
+    line-height:  11px;
+}
+.secondslide .slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: black;
+}
+    
+.secondslide .slick-dots{
+    width: 121px;
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    margin-top: -50px;
+    top: 50%;
+    display: block;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+.secondslide canvas {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+}
+.secondslide .btn-primary:active:hover,.secondslide .btn-primary.active:hover,.secondslide .open>.dropdown-toggle.btn-primary:hover,.secondslide .btn-primary:active:focus,.secondslide .btn-primary.active:focus,.secondslide .open>.dropdown-toggle.btn-primary:focus,.secondslide .btn-primary:active.focus,.secondslide .btn-primary.active.focus,.secondslide .open>.dropdown-toggle.btn-primary.focus {
+    color: #fff;
+    background-color: transparent;
+    border-color: transparent;
+}
+.secondslide .btn-primary:hover {
+    color: #fff;
+    background-color: transparent;
+    border-color: #736451;
+}
+.slidetext a:hover{
+    text-decoration: none;
+}
+@media (max-width: 1300px){
+    .secondslide .h1{
+    width: 48%;
+    font-family: bebasbook;
+    font-size: 60px;
+    color: white;
+    line-height: 7rem;
+    }
+    .secondslide .container {
+    position: absolute;
+    /* top: 50%; */
+    left: 0;
+    margin-bottom: -93px;
+    right: 0;
+    background: transparent;
+    bottom: 50%;
+    }
+}
+@media (max-width: 992px){
+    .secondslide .h1{
+    width: 30%;
+    font-family: bebasbook;
+    font-size: 40px;
+    color: white;
+    line-height: 3.5rem;
+    }
+}
+@media (max-width: 768px){
+    .slidetext{
+    display: none;
+    text-align: left;
+    }
+    .secondslide .slick-slide img{
+    width: 100%;
+    height: 100%;
+    min-height: 290px;
+    opacity: 0.4;
+    object-fit:  cover;
+    }
+    
+}

@@ -1,0 +1,132 @@
+.ourheroes{
+    overflow: hidden;
+    position: relative;
+    min-height: 600px;
+}
+.ourheroes .forimg{
+    overflow: hidden;
+    width: 100%;
+    height: 406px;
+    background: rgba(0,13,29,1);
+}
+.ourheroes .forimg img{
+    opacity: .5;
+}
+.image_hero{
+  opacity: .5;
+  background-image: url(../images/layer136.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.hero_title{
+    font-family: bebasr;
+    font-size: 40px;
+    color: #a5855d;
+    line-height: 41px;
+}
+.hero_title span{
+    font-size: 60px;
+    color: #131c27;
+    display: block;
+}
+.hero_article{
+    font-family: bpgnp;
+    font-size: 16px;
+    color: #131c27;
+    margin-top: 30px;
+    opacity: .9;
+}
+.hero_box{
+   background-color: white;
+   width: 720px;
+   min-height: 360px;
+   padding: 65px;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   position: absolute;
+   right: 0%;
+   z-index: 155;
+   top: 190px;
+   margin-right: -137px;
+}
+.ourheroes .discovery{
+    margin-top: 30px;
+    background-color: #dadcde;
+    color: #313b47;
+}
+.ourheroes .discovery:after{
+    background-color: #313b47;
+    color: white;
+}
+@media(max-width: 1200px){
+  .hero_box {
+ 
+    margin-right: -250px;
+  }
+}
+@media(max-width: 992px){
+  
+  .hero_box{
+      left: 8%;
+
+  }
+}
+@media(max-width: 767px){
+  .hero_box{
+  position: unset;
+  text-align: center;
+  min-height: 79px;
+  padding: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  width: 100%;
+  }
+  .ourheroes {
+    overflow: hidden;
+    position: relative;
+    min-height: 315px;
+  }
+
+  .hero_title span {
+    font-size: 40px;
+    color: #131c27;
+    display: inline-block;
+    padding-left: 2px;
+  }
+
+  .hero_title {
+    font-family: bebasr;
+    font-size: 40px;
+    color: #131c27;
+    line-height: 41px;
+    padding-top: 8px;
+  }
+
+  .ourheroes .forimg {
+    width: 100%;
+    height: 195px;
+    margin-top: 25px;
+  }
+
+  .ourheroes img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  }
+  .image_hero{
+    height: 200px;
+  }
+
+  .ourheroes .discovery {
+    margin-top: 0;
+    position: relative;
+    top: 15px;
+  }
+
+  #line:before, #line:after {
+    display: none;
+  }
+}

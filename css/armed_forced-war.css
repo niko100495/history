@@ -1,0 +1,92 @@
+.leftside,.rightside{
+	overflow: hidden;
+}
+.leftside{
+	border-right: 1px solid;
+}
+.military_operations .col-lg-6{
+	padding: 0;
+}
+
+.saomari{
+	width: 100%;
+	background-color: white;
+}
+.military_operations .time_right {
+    left: 50%;
+    width: 50%;
+    position: relative;
+    padding-left: 65px;
+    top: 25px;
+    height: 272px;
+}
+@media (min-width: 1200px){
+.military_operations .time_box_right , .military_operations .time_box_left{
+    height: 240px;
+    width: 370px;
+}
+.military_operations .time_minbox_left, .military_operations .time_minbox_right {
+    width: 232px;
+    height: 145px;
+    background-color: rgba(115,100,81,0.5);
+    position: absolute;
+    right: 12px;
+    top: 147px;
+}
+.military_operations .time_number {
+    font-size: 74px;
+    color: white;
+    font-family: 'Rochester-Regular';
+}
+.military_operations .time_title {
+    font-size: 22px;
+    color: #131c27;
+    font-family: bebasr;
+    z-index: 1;
+    position: relative;
+}
+.military_operations .hoverbox {
+    position: absolute;
+    top: 93px;
+    width: 100%;
+    background-color: #736451;
+    padding-right: 0!important;
+    height: 51px;
+    opacity: 0;
+    z-index: 0;
+    left: 0;
+    transition: .5s;
+	}
+ 	.military_operations .rightplus {
+    text-align: right;
+    font-size: 40px;
+    padding-right: 10px!important;
+    color: white;
+    font-family: "fontawesome";
+
+	}
+}
+@media (max-width: 1200px) and (min-width: 769px){
+	.time_left {
+    width: 50%;
+    right: 25px;
+    left: unset;
+    position: relative;
+    top: 25px;
+	}
+}
+@media (max-width: 769px){
+	.time_start {
+    margin-top: 55px;
+    position: relative;
+    margin-bottom: 50px;
+	}
+	.military_operations .time_right {
+    left: 0;
+    width: 100%;
+    position: relative;
+    padding-left: 0px;
+    top: 25px;
+    height: auto;
+	}
+}

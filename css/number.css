@@ -1,0 +1,99 @@
+
+.howmany a:hover{
+    text-decoration: none;
+}
+.number{
+    font-family: Rochester-regular;
+    font-size: 70px;
+    line-height: 70px;
+    color: white;
+    padding-bottom: 10px;
+}
+.textnumber{
+    font-family: bpgnp;
+    font-size: 16px;
+    color: #a5855d;
+    opacity: .9;
+}
+.border-right{
+    border-right: 1px solid #5a6168;
+}
+.full{
+   padding-left: 35%;
+    text-align: left;
+        width: 50%;
+    
+            
+
+}
+.mytext-left{
+    position: absolute;
+    width: 61%;
+}
+.height_114{
+   height: 127px;
+}
+@media (max-width: 992px){
+    .full {
+    padding-left: 24%;
+    }
+}
+
+@media (max-width: 767px){
+    .number {
+    margin-bottom: 0px;
+    }
+}
+@media (max-width: 766px){
+    .full{
+   padding-left: 0%;
+   text-align: center;
+   width: 100%;
+    }
+    .mytext-left{
+    position: inherit;
+    width: 60%;
+    }
+    .border-top-mobile{
+    border-top: 1px solid #5a6168;
+    }
+    .border-right{
+    border-right: 0px solid;
+    }
+    .border-right-mobile{
+    border-right: 1px solid #5a6168;
+    }
+    .textnumber{
+    font-family: bpgnp;
+    font-size: 14px;
+    color: #a5855d;
+    line-height: 1px!important;
+    }
+    .number{
+    font-family: Rochester;
+    font-size: 41px;
+    color: white;
+    }
+    .text_alg_cent{
+        text-align: center;
+    }
+    .pr-mobile-0{
+    padding-right: 0!important;
+    }
+    .pl-mobile-0{
+    padding-left: 0!important;
+    }
+    .addposs{
+    position: absolute;
+    line-height: 13px!important;
+    /* right: 0; */
+    margin-right: 20px;
+    left: 24%;
+    }
+    .addposs_II{
+    position: absolute;
+    line-height: 13px!important;
+    right: 23%;
+    left: 23%;
+    }
+}

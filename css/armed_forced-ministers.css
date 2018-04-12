@@ -1,0 +1,93 @@
+.date{
+	font-size: 14px;
+	font-family: 'bpgnp';
+	color: #736451;
+	margin-top: 15px;
+}
+.name{
+	color: #00050b;
+	font-size: 26px;
+	font-family: 'bebasr';
+}
+.ministerblok{
+	overflow: hidden;
+	padding-bottom: 15px;
+}
+.ministers{
+	width: 100%;
+	background-color: white;
+	padding-bottom: 50px;
+
+}
+.ministers .col-lg-6{
+	padding-left: 0;
+}
+.ministers a:hover{
+	text-decoration: none;
+}
+.ministers a{
+	display: block;
+}
+.imghover{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(115,100,81,0.7);
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.plus_forminst{
+	height: 40px;
+	width: 8px;
+	display: block;
+	background-color: white;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+
+	
+}
+.plus_forminst:before{
+	width: 40px;
+    height: 8px;
+    background-color: white;
+    display: block;
+    position: absolute;
+    content: "";
+    margin: auto;
+    top: 0;
+    left: -16px;
+    right: 0;
+    bottom: 0;
+}
+.imghover{
+	opacity: 0;
+	transition: .5s;
+}
+.ministerblok:hover .imghover{
+	opacity: 1;
+	transition: .5s;
+}
+@media (max-width: 768px){
+	.ministerblok img{
+	width: 100%;
+	}
+	.ministers .col-lg-6{
+	padding-left: 15px;
+	}
+	.forced_minst .text_title {
+    display: block;
+    padding-top: 15px;
+    margin-top: 0;
+    padding-left: 15px;
+    font-size: 35px;
+    padding-bottom: 15px;
+ }
+	
+}

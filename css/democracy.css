@@ -1,0 +1,176 @@
+.democrate{
+    overflow: hidden;
+    position: relative;
+    max-height: 758px;
+}
+
+.democrate_title{
+    font-family: bebasr;
+    font-size: 40px;
+    color: #a5855d;
+    letter-spacing: 3px;
+    line-height: 1;
+     margin-top: 50px;
+}
+.democrate_title span{
+    display: block;
+    color: white;
+    font-size: 60px;
+}
+.democrate_a a{
+    font-size: 16px;
+    font-family: bpgnp;
+    text-decoration: underline;
+
+}
+.democrate_a{
+    margin-bottom: 40px;
+}
+.color_red a{
+     color: #d30404;
+}
+.color_brown a{
+     color: #816a4e;
+}
+.democrate img{
+    
+object-fit: cover;
+    
+opacity: 0.8;
+    
+width: 100%;
+    
+min-height: 682px;
+    
+margin-top: -138px;
+}
+.image_dem{
+    opacity: 0.8;
+    width: 100%;
+    min-height: 682px;   
+    margin-top: -138px;
+    background-image: url(../images/layer130.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.democrate ul li a{
+    font-family: bpgnp;
+    font-size: 18px;
+    color: white;
+    position: relative;
+    text-decoration: none;
+    display:  block;
+    line-height: 37px;
+}
+.democrate ul li a:before{
+    content: " ";
+    width: 8px;
+    height: 8px;
+    background-color: #a5855d;
+    padding-right: 9px;
+    position: absolute;
+    right: 100%;
+    top: 43%;
+    margin-right: 10px;
+}
+.democrate ul{
+    padding: 120px;
+    padding-left: 100px;
+    padding-top: 70px;
+}
+.democrate ul li{
+    /* line-height: 37px; */
+    padding-left: 30px;
+    list-style: none;
+    width: 67%;
+}
+.democrate ul li:hover{
+    background: #a5855d;
+    transition: 1s;
+}
+.democrate ul li:hover .hover:before{
+    background-color: white!important;
+    transition: 1s;
+}
+@media(max-width: 1335px){
+    .democrate ul {
+    padding: 120px;
+    padding-left: 63px;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-top: 63px;
+    }
+}
+
+@media (max-width: 1080px){
+    .democrate ul {
+    padding: 0;
+    padding-left: 52px;
+    margin-bottom: 0;
+    }
+
+    .democrate ul li {
+    line-height: 34px!important;
+    padding-left: 30px;
+    list-style: none;
+    width: 75%;
+    }
+}
+
+@media (max-width: 992px){
+
+    .democrate ul{
+    margin:0;
+    }
+    
+    .democrate ul li {
+    line-height: 34px!important;
+    padding-left: 30px;
+    list-style: none;
+    width: 100%;
+    }
+}
+@media (max-width: 767px){
+    .democrate img {
+    object-fit: cover;
+    opacity: 0.3;
+    min-height: 272px;
+    width: 100%;
+    }
+    .image_dem{
+        opacity: .3;
+        min-height: 272px;
+    }
+
+    .democrate_title {
+    font-family: bebasr;
+    font-size: 20px;
+    color: #a5855d;
+    letter-spacing: 0;
+    line-height: 1;
+    position: relative;
+    z-index: 1;
+    top: 44px;
+    margin-top: 0px;
+    }
+
+    .democrate_title span {
+    display: block;
+    color: white;
+    font-size: 30px;
+
+    }
+
+    .democrate {
+    overflow: hidden;
+    position: relative;
+    height: 130px;
+    }
+
+    .democrate .forimg {
+    height: 131px;
+    position: relative;
+    top: -90px;
+    }
+}

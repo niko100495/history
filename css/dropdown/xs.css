@@ -1,0 +1,154 @@
+ol{
+    display: inline-block;
+    padding-left: 0;
+    height: 46px;
+    padding-top: 13px;
+}
+#menubox ul.menu > ol > .dropdown {
+    display: none !important;
+}
+
+#menubox ul.menu > ol > li > .dropdown {
+ /*   background-color: #fff;*/
+    max-height: 0;
+    overflow: hidden;
+    padding: 0;
+    position: initial;
+    display: block;
+
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -ms-transition: all .4s;
+    transition: all .4s;
+}
+
+#menubox ul.menu > ol > li:hover > .dropdown {
+    padding: 10px 3px;
+}
+
+#menubox .dropdown .categories {
+    
+/* padding-top: 10px; */
+    
+text-align: left;
+    
+margin-top: 0;
+    
+width: 100%;
+    
+-webkit-column-count: 1;
+    
+-moz-column-count: 1;
+    
+-ms-column-count: 1;
+    
+column-count: 1;
+    
+-webkit-column-gap: 30px;
+    
+-moz-column-gap: 30px;
+    
+-ms-column-gap: 30px;
+    
+column-gap: 30px;
+}
+
+#menubox .dropdown .categories a {
+    display: block;
+    font-family: "BebasNeueRegular";
+    color: #000000;
+    font-size: 16px;
+    line-height: 15px;
+    margin: 5px;
+    margin-top: 0;
+    margin-left: 15px;
+    text-transform: initial;
+    position: relative;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -ms-transition: all .4s;
+    transition: all .4s;
+}
+
+#menubox .dropdown .categories a:hover,
+#menubox .dropdown .categories a.active {
+    color: #d65658;
+    background: url(../../img/menu_dot_bg_hover_sec.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+#menubox .dropdown .categories a i {
+    position: absolute;
+    line-height: 20px;
+    left: 0;
+    opacity: 0;
+    color: #d65658;
+
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    transition: all .3s;
+}
+
+#menubox .dropdown .categories a:hover i,
+#menubox .dropdown .categories a.active i {
+    opacity: 1;
+}
+
+#menubox .dropdown .menu-img {
+    display: block;
+    height: 220px;
+    margin-top: 6px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#menubox .dropdown .menu-img .bg {
+    position: absolute;
+    top: 16px;
+    bottom: 16px;
+    left: 18px;
+    right: 18px;
+ 
+    background-color: rgba(0, 0, 0, 0);
+
+    -webkit-transition: background-color .4s;
+    -moz-transition: background-color .4s;
+    -ms-transition: background-color .4s;
+    transition: background-color .4s;
+}
+
+#menubox .dropdown .menu-img:hover .bg {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+#menubox .dropdown .menu-img .desc {
+    color: #fff;
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    left: 55px;
+    right: 20px;
+    font-family: "Intro-Bold-Alt";
+}
+
+#menubox .dropdown .menu-img .desc h3 {
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: initial;
+}
+
+#menubox .dropdown .menu-img .desc .sale-price {
+    font-weight: bold;
+    font-size: 41px;
+}
+
+#menubox .dropdown .menu-img .desc .price {
+    font-weight: bold;
+    font-size: 20px;
+    color: #7d7c7a;
+    text-decoration: line-through;
+}
